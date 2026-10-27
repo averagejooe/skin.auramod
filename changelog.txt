@@ -1,3 +1,5 @@
+v2.1.0
+-Add setting to disable the SxxExx episode label printed on artwork (on by default)
 v2.0.4
 -Remove More... widget item for Netflix Info "Cast & More" lists
 -Remove deprecated See More... widget item

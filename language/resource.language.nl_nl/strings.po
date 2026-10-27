@@ -4566,3 +4566,8 @@ msgstr ""
 msgctxt "#31934"
 msgid "Display completed progress bars on landscape widgets"
 msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31935"
+msgid "Disable episode label on artwork"
+msgstr ""

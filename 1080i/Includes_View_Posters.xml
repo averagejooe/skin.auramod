@@ -100,7 +100,7 @@
                           <shadowcolor>black</shadowcolor>
                           <textcolor>white</textcolor>
                           <label>S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
-                          <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)</visible>
+                          <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !Skin.HasSetting(DisableEpisodeLabel)</visible>
                         </control>
                         <control type="progress">
                           <visible>Integer.IsGreater(ListItem.PercentPlayed,0)</visible>
@@ -1850,7 +1850,7 @@
             <shadowcolor>black</shadowcolor>
             <textcolor>white</textcolor>
             <label>S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
-            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)</visible>
+            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !Skin.HasSetting(DisableEpisodeLabel)</visible>
           </control>
           <control type="progress">
             <visible>Integer.IsGreater(ListItem.PercentPlayed,0)</visible>
@@ -1911,7 +1911,7 @@
             <shadowcolor>black</shadowcolor>
             <textcolor>white</textcolor>
             <label>S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
-            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)</visible>
+            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !Skin.HasSetting(DisableEpisodeLabel)</visible>
           </control>
           <control type="progress">
             <visible>Integer.IsGreater(ListItem.PercentPlayed,0)</visible>
@@ -2136,7 +2136,7 @@
             <shadowcolor>black</shadowcolor>
             <textcolor>white</textcolor>
             <label>S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
-            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)</visible>
+            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !Skin.HasSetting(DisableEpisodeLabel)</visible>
           </control>
           <control type="progress">
             <visible>Integer.IsGreater(ListItem.PercentPlayed,0)</visible>
@@ -2197,7 +2197,7 @@
             <shadowcolor>black</shadowcolor>
             <textcolor>white</textcolor>
             <label>S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
-            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)</visible>
+            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !Skin.HasSetting(DisableEpisodeLabel)</visible>
           </control>
           <control type="progress">
             <visible>Integer.IsGreater(ListItem.PercentPlayed,0)</visible>
@@ -2253,7 +2253,7 @@
             <shadowcolor>black</shadowcolor>
             <textcolor>white</textcolor>
             <label>S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
-            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)</visible>
+            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !Skin.HasSetting(DisableEpisodeLabel)</visible>
           </control>
           <control type="progress">
             <visible>Integer.IsGreater(ListItem.PercentPlayed,0)</visible>
@@ -2348,7 +2348,7 @@
             <shadowcolor>black</shadowcolor>
             <textcolor>white</textcolor>
             <label>S$INFO[ListItem.Season]:E$INFO[ListItem.Episode]</label>
-            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode)</visible>
+            <visible>!Container.Content(Seasons) + !String.IsEmpty(ListItem.Season) + !String.IsEmpty(ListItem.Episode) + !Skin.HasSetting(DisableEpisodeLabel)</visible>
           </control>
           <control type="progress">
             <visible>Integer.IsGreater(ListItem.PercentPlayed,0)</visible>

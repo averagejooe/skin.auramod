@@ -1090,6 +1090,13 @@
                             <selected>!Skin.HasSetting(DisableViewText)</selected>
                             <onclick>Skin.ToggleSetting(DisableViewText)</onclick>
                         </control>
+                        <control type="radiobutton" id="9513" description="Disable episode label on artwork">
+                            <visible>Integer.IsEqual(Window.Property(CurrentFocus),9005)</visible>
+                            <include>Defs_Settings_Button</include>
+                            <label>$LOCALIZE[31935]</label>
+                            <selected>Skin.HasSetting(DisableEpisodeLabel)</selected>
+                            <onclick>Skin.ToggleSetting(DisableEpisodeLabel)</onclick>
+                        </control>
 
 <!--
                         <control type="radiobutton" id="9504" description="Disable plot outline">

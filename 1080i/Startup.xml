@@ -21,6 +21,8 @@
             <visible allowhiddenfocus="true">false</visible>
             <onfocus condition="!Skin.HasSetting(SkinHelper.EnablePVRThumbs)">Skin.SetBool(SkinHelper.EnablePVRThumbs)</onfocus>
             <onfocus condition="!Skin.HasSetting(SkinHelper.EnableMusicArt)">Skin.SetBool(SkinHelper.EnableMusicArt)</onfocus>
+            <onfocus condition="!Skin.HasSetting(EpisodeLabelDefaultApplied)">Skin.SetBool(DisableEpisodeLabel)</onfocus>
+            <onfocus condition="!Skin.HasSetting(EpisodeLabelDefaultApplied)">Skin.SetBool(EpisodeLabelDefaultApplied)</onfocus>
 
             <onfocus condition="String.IsEmpty(Skin.String(colorbox_effect))">Skin.SetString(colorbox_effect,blur)</onfocus>
             <onfocus condition="String.IsEmpty(Skin.String(colorbox_quality))">Skin.SetString(colorbox_quality,8)</onfocus>
