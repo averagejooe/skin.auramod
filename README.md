@@ -66,8 +66,10 @@ this setting, method 2 is faster and safer.
 > `userdata/addon_data/script.skinshortcuts/skin.auramod/` and survive the reinstall.
 > They are being recomputed, not rebuilt from scratch.
 >
-> **Do not force-close Kodi while the menu is rebuilding.** Let it finish. If it looks
-> wedged, restart once and give it a full run before assuming something is broken.
+> If it got stuck in the loading menu, force closing the app and waiting the longer home loading will
+> also proceed with the menu rebuilding it eventually.
+>
+> PS: Or i think its much safer to just use any other skin that's not auramod before switching it again.
 
 ### Method 2 — Replace files in place (recommended for updates)
 
